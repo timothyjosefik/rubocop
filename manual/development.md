@@ -3,7 +3,7 @@
 Use a rake task to generate a cop template.
 
 ```sh
-$ bundle exec rake new_cop[Department/Name]
+$ bundle exec rake 'new_cop[Department/Name]'
 Files created:
   - lib/rubocop/cop/department/name.rb
   - spec/rubocop/cop/department/name_spec.rb
